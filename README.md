@@ -1,0 +1,2 @@
+# Assembly Out-of-Bounds Memory Access Bug
+This repository demonstrates a common yet subtle bug in assembly language: accessing memory beyond the allocated bounds of an array. This can lead to unpredictable program behavior, crashes, or security vulnerabilities. The bug is demonstrated in `bug.asm`, and the solution is provided in `bugSolution.asm`.  The code involves array manipulation, and the error occurs when an index is not properly checked, potentially referencing memory outside of the array's allocated region.
